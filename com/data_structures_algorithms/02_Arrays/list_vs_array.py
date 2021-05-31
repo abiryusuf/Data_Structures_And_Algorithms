@@ -23,8 +23,19 @@ print(list1)
 x = list1[1] = 12
 print(x)
 
+value = [4, 6, 7, 10]
+groceries = {"bananas": 1.56, "apples": 2.50, "oranges": 0.99, "bread": 4.59, "coffee": 3.56}
+def total(num):
+    sum = 0
+    for i in num:
+        sum += num[i]
+    return sum
+print(total(groceries))
+
 print(list1)
 # In the code below, the "i" signifies that all elements in array_1 are integers:
 array_1 = arr.array("i", [5, 7, 9, 10])
+
+
 print(array_1)
 print(type(array_1))
