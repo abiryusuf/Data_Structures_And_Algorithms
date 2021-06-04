@@ -47,3 +47,8 @@ uniqueCourse = abir.difference(roberts)
 for course in uniqueCourse:
     print("They are taking difference courses: ", course)
 
+union = abir.union(roberts)
+for c in union:
+    print(c)
+
+
